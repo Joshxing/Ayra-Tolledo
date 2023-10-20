@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Ayra Tolledo</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Flaticon css ======-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <style>
+        /* Styling for the fading carousel */
+        .carousel-fade .carousel-item {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .carousel-fade .carousel-item.active {
+            opacity: 1;
+        }
+
+        /* Styling for the header content area */
+        .header-content-area {
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh; /* Ensure the background covers the entire viewport height */
+        }
+
+        .header-content-area::before {
+            content: '';
+            background: rgba(0, 0, 0, 0.45);
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+        }
+        .subscribe-form input[type="email"] {
+        width: 300px; /* Adjust the width as needed */
+        border-radius: 20px;
+        border: none;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 200%;
+        margin-top: 50px;
+    }
+
+.coming-soon-text
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: -15%;
+    z-index: 2;
+    margin-left: 50%;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #e2c76c 0%,
+    #b78620 50%,
+    #f0d57f 67%,
+    #b78620 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 120px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.coming-soon-text {
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 70px;
+            position: relative;
+            color: #fff;
+            font-size: 120px;
+        }
+
+        /* Styles for mobile devices */
+        @media (max-width: 767px) {
+            .coming-soon-text {
+                font-size: 70px; /* Adjust the font size for mobile */
+                margin-left: -20px;
+
+            }
+        }
+
+        /* Styles for desktop devices */
+        @media (min-width: 768px) {
+            /* Additional desktop styles if needed */
+        }
+
+        .header-content-area {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: url('./assets/images/header-bg4.jpg');
+    background-size: cover; /* Make the background image responsive */
+    background-position: center; /* Center the background image */
+}
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <div class="navbar-area navbar-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                               <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                        
+                              
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div>
+
+
+        <div id="home" class="header-content-area bg_cover d-flex align-items-center">    
+            <div class="text-container">
+                <h2 id="coming-soon" class="coming-soon-text">COMING SOON</h2>
+            </div>
+            <!-- Fading Background Image Slideshow 
+                 <div id="imageCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner" style="background-size: cover;">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/header-bg1.jpg" alt="Background Image 1" style="z-index: -1;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/header-bg2.jpg" alt="Background Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/header-bg3.jpg" alt="Background Image 3">
+                        </div>
+                    </div>
+                </div>
+            -->
+            <!-- Countdown Timer and "Register now" button -->
+            <div class="countdown-container" style="font-weight: 300;">
+                <!-- Countdown Timer -->
+              <!--  <div data-countdown="2023/10/28">Countdown Timer Here</div> -->
+                <!-- "Register now" button -->
+                <div class="navbar-btn text-center">
+                     <!-- <form action="YOUR_SUBSCRIBE_ACTION_URL" method="POST" class="subscribe-form" style="position: relative; z-index: 3;">
+                        <div class="form-row">
+                            <div class="col-8">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block" style="margin-left: 150%; width: 100%;">Subscribe Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                -->
+                </div>
+            </div>
+        </div>
+        
+         <!-- header content -->
+
+
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var getTicketButton = document.querySelector('.main-btn');
+                var modal = document.getElementById('myModal');
+                var span = document.getElementsByClassName('close')[0];
+                var emailForm = document.getElementById('emailForm');
+                var nameInput = document.getElementById('name');
+                var lastNameInput = document.getElementById('lastName');
+                var emailInput = document.getElementById('email');
+
+                getTicketButton.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    modal.style.display = 'block';
+                });
+
+                span.addEventListener('click', function() {
+                    modal.style.display = 'none';
+                });
+
+                emailForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+                var name = nameInput.value;
+                var lastName = lastNameInput.value;
+                var email = emailInput.value;
+                
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', ''); // Replace with the URL of your PHP file
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        // Redirect the user to the specified website
+                        window.location.href = 'https://eventsandexhibitions.us';
+                    } else {
+                        console.log('Error:', xhr.status);
+                    }
+                };
+                xhr.send('name=' + encodeURIComponent(name) + '&lastName=' + encodeURIComponent(lastName) + '&email=' + encodeURIComponent(email));
+                
+                modal.style.display = 'none';
+            });
+        });
+        </script>
+        
+  
+
+        <!-- Pop up modal -->
+        <div id="myModal" class="modal" style="margin-top: 50px;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Enter your details:</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-description">Stay tuned to our latest update and get a FREE access to our speakers' presentation</p>
+                        <!-- Update the form element with the correct IDs -->
+                        <form action="https://script.google.com/macros/s/AKfycbzcRxHeIn8ZRYMwrsnTOFDLgvKLiJOREuU-ZbBCbNflihNziC3Du8OwhSSqb3J4_cOSeQ/exec" method="POST">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <input type="submit" value="Subscribe" class="subscribe-button" style="background-color: #800000; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; border-radius: 4px;">
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+  
+        
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======--> 
+
+    <!--====== PART START ======-->
+
+    <!--====== PART ENDS ======-->
+
+    <!-- row -->
+
+
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== Countdown js ======-->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+
+</body>
+
+</html>
