@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 html{
-  overflow: hidden;
+
 }
 
 body {
@@ -17,7 +17,6 @@ body {
   font-style: normal;
   color: #777777;
   overflow-x: hidden;
-  overflow: hidden;
  }
 
 * {
